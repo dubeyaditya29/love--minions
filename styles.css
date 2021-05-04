@@ -1,0 +1,31 @@
+* {
+  margin: 0rem;
+}
+#text--input {
+  border: 1px solid black;
+  height: 20vh;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.header {
+  color: yellow;
+  text-shadow: 4px 1px black;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#translate {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+}
+#output--area {
+  border: 1px solid black;
+  height: 20vh;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
