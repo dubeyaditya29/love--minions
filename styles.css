@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   margin: 0rem;
 }
+:root {
+  --primary-color: #f0c51a;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+}
 #text--input {
-  border: 1px solid black;
+  border: 2px solid black;
   height: 20vh;
   display: block;
   width: 80%;
   margin: auto;
   margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 .header {
   color: yellow;
@@ -17,15 +26,26 @@
 }
 
 #translate {
+  background-color: #fef3c7;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   display: block;
   margin: auto;
 }
 #output--area {
-  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  border: 2px solid black;
   height: 20vh;
   width: 80%;
   margin: auto;
   margin-top: 2rem;
+}
+.footer {
+  text-align: center;
+  margin-top: 8rem;
+}
+.footer .footer--div {
+  font-size: 14px;
+  color: black;
 }
