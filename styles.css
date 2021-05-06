@@ -33,7 +33,6 @@ body {
   margin: auto;
 }
 #output--area {
-  padding: 0.5rem 0.5rem;
   border-radius: 0rem 1rem;
   background-color: white;
   border: 2px solid black;
