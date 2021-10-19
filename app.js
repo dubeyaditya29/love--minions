@@ -7,7 +7,7 @@ function createURL(text) {
 }
 function catchError(error) {
   console.error(error);
-  alert("something wrong with server!!");
+  alert("Oops! something went wrong with server!!");
 }
 button.addEventListener("click", () => {
   var url = createURL(input.value);
